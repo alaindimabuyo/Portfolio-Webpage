@@ -1,0 +1,80 @@
+.container{
+    position: relative;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+   
+    
+}
+.btn{
+    margin-top: 20px;
+}
+nav{
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: #004d40;
+    z-index: 1;
+}
+.page-footer{
+    background-color: #004d40;
+}
+.alain{
+    color: #02a902
+}
+.circle{
+    background: url('https://avatars2.githubusercontent.com/u/15050664?s=460&v=4') no-repeat;
+    
+    width: 100%;
+    height: 300pt;
+    background-size: cover;
+}
+
+.portfolio{
+    background: rgb(178,223,219)
+}
+.techlogo{
+    width: 10pt;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .centered {
+      top: 25%;
+      left: 50%;
+      
+    
+    }
+    .btn{
+        margin-top: 10px;
+        size: 50%;
+    }
+    .front_text{
+        font-size: 19px;
+    }
+    .circle{
+        background: url('https://avatars2.githubusercontent.com/u/15050664?s=460&v=4') no-repeat;
+        border: 2px solid #004d40;
+        width: 100%;
+        height: 120pt;
+        background-size: cover;
+    }
+    
+    .brand-logo{
+        margin-top: 20px;
+    }
+    .techlogo{
+        display: none;
+    }
+    h5{
+        font-size: 20px
+    }
+  }
